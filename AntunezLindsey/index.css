@@ -2,8 +2,6 @@ body{
     width: 100%;
     
 }
-
-
 .logo{
     background-color: #E03C31;
     width: 100%;
@@ -16,40 +14,36 @@ body{
     width: 20%;
 }
 
-.peliculas article{
-    width: 20%;
-    height: 600px;
+.divPeliculas{
+    width: 100%;
+    display: flex;
+    column-gap: 1%;
+    justify-content: space-around;
+    margin-bottom: 15%;
+}
+.divPeliculas article{
+    width: 50%;
+    height: 650px;
     margin: 0%;
-    background-color: red;
+    
 
 }
 .peliculas p{
     overflow: auto;
-    height: 23%;
+    height: 240px;
     padding-top: 0%;
     scrollbar-width: none;
 }
 .peliFotos{
     width: 100%;
-    height: 350px;
+    height: 300px;
     object-fit:fill;
-    
-    
+ 
 }
-
-section div{
-    display: flex;
-    column-gap: 1%;
-    justify-content: space-around;
-    margin-bottom: 15%;
-    
-    
-}
-
 .actores{
     display: flex;
     text-align: justify;
-    column-gap: 20px;
+    column-gap: 4%;
     color: aliceblue;
     background-color: black;
     text-align: center;
@@ -64,6 +58,42 @@ section div{
 
 }
 
+.fotosSeries{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.series{
+    width: 100%;
+    display: flex;
+    column-gap: 1%;
+    justify-content: space-around;
+    margin-bottom: 15%;
+    flex-wrap: wrap;
+
+}
+.series article{
+    width: 30%;
+    height: 650px;
+    padding-bottom: 10%; 
+
+}
+.series p{
+    overflow: auto;
+    height: 240px;
+    padding-top: 0%;
+    scrollbar-width: none;
+   
+}
+aside{
+    width: 30%;
+}
+.asideYSeries{
+    display: flex;
+
+    
+}
 
 ul{
     display: flex;
@@ -79,10 +109,12 @@ h2{
     color: #E03C31;
     margin-bottom: 0%;
     padding-bottom: 0%;
+    text-align: center;
 }
 h3{
     background-color: #E03C31;
     margin: 0%;
     border-top: 0%;
     border: solid black;
+   
 }   
