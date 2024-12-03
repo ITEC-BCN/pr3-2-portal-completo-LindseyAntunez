@@ -1,0 +1,38 @@
+body{
+    width: 100%;
+}
+
+
+.logo{
+    background-color: #E03C31;
+   
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0px;
+
+}
+img{
+    width: 30%;
+}
+section div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.peliFotos{
+    width: 25vw;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #E03C31;
+    
+}
+   
+h2{
+    color: #E03C31;
+}
