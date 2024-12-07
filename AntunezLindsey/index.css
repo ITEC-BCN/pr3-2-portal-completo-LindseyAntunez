@@ -2,6 +2,7 @@ body{
     width: 100%;
     
 }
+
 .logo{
     background-color: #E03C31;
     width: 100%;
@@ -14,14 +15,31 @@ body{
     width: 20%;
 }
 
-  
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #E03C31;
+    margin: 0%;
+    position:sti;
+    z-index: 100;
+    top: 290px;
+    left: 0px;
+    text-transform: uppercase;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
 
 .divPeliculas{
     width: 100%;
     display: flex;
     column-gap: 1%;
     justify-content: space-around;
-    margin-bottom: 15%;
+    
 }
 .divPeliculas article{
     width: 50%;
@@ -71,13 +89,11 @@ body{
     display: flex;
     column-gap: 1%;
     justify-content: space-around;
-    margin-bottom: 15%;
     flex-wrap: wrap;
 
 }
 .series article{
     width: 30%;
-    /*height: 650px;*/
     padding-bottom: 10%; 
 
 }
@@ -90,11 +106,19 @@ body{
 }
 aside{
     width: 30%;
+    background-color: #f06f5e;
+    
+}
+aside img{
+    width: 400px;
+    padding-left: 15px;
 }
 .asideYSeries{
     display: flex;
+}
 
-    
+aside span{
+    font-weight: bold;
 }
 
 .asideYSeries section{
@@ -104,6 +128,7 @@ footer{
     text-align: center;
     display: flex;
     justify-content: space-between;
+    padding-right: 50px;
 
 }
 footer ul img{
@@ -118,6 +143,12 @@ footer ul{
     gap: 3px;
 }
 
+.direccion{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: space-between;
+}
  
 h2{
     color: #E03C31;
@@ -132,26 +163,23 @@ h3{
     border: solid black;
    
 }   
-.menu{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    justify-content: space-around;
-    background-color: #E03C31;
-    margin: 0%;
-    
-}
+
 .masVisto{
     display: flex;
 }
 .masVisto article img{
     width: 150px;
+    height: 200px;
     z-index: 1;
 
 }
 .masVisto article .pos{
-    width: 100px;
-    height: 120px;
+    width: 90px;
+    height: 100px;
     z-index: 2;
-    
+    position: relative;
+    top: 100px;
+    left: 70px;
 }
+
+
