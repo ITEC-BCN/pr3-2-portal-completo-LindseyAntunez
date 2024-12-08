@@ -2,6 +2,9 @@ body{
     width: 100%;
     
 }
+*{
+    font-family: "Outfit", sans-serif;
+}
 
 .logo{
     background-color: #E03C31;
@@ -9,7 +12,6 @@ body{
     display: flex;
     justify-content: space-around;
     padding-bottom: 0px;
-
 }
 .logo img{
     width: 20%;
@@ -22,16 +24,24 @@ body{
     justify-content: space-around;
     background-color: #E03C31;
     margin: 0%;
-    position:sti;
     z-index: 100;
     top: 290px;
     left: 0px;
     text-transform: uppercase;
+   
+   
+}
+
+.menu a:hover{
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
     
 }
-.menu a{
+a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .divPeliculas{
@@ -54,6 +64,10 @@ body{
     height: 240px;
     padding-top: 0%;
     scrollbar-width: none;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
 }
 .peliFotos{
     width: 100%;
@@ -106,17 +120,10 @@ body{
    
 }
 .series button{
-    background-color: #E03C31;
     text-align: end;
-    width: 100%;
     font-family:sans-serif;
-    font-size: larger;
-    font-weight: bold;
-    position: relative;
-    top: -15px;
-    color: aliceblue;
-    
 }
+
 aside{
     width: 30%;
     background-color: #f06f5e;

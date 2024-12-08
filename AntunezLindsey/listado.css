@@ -1,0 +1,11 @@
+.listado img{
+width: 350px;
+height: 400px;
+}
+.listado{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin: 2%;
+}
